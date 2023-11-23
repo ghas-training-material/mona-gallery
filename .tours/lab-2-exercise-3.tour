@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Lab-2-Exercise-3",
+  "steps": [
+    {
+      "file": "gallery/main.go",
+      "description": "Ask GitHub Copilot for a fix for this SQL Injection vulnerability.",
+      "line": 308,
+      "selection": {
+        "start": {
+          "line": 308,
+          "character": 2
+        },
+        "end": {
+          "line": 308,
+          "character": 199
+        }
+      }
+    }
+  ]
+}

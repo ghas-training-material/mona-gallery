@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Lab-2-Exercise-2",
+  "steps": [
+    {
+      "file": "gallery/main.go",
+      "description": "Select this line of code which has an Injection vulnerability and we will ask GitHub Copilot to explain what an Injection Vulnerability is and how it can be exploited. Below prompt can be used:\n\n\"Explain me what is an SQL Injection and how it can be exploited with my code as a reference. Also explain me how the vulnerability can be fixed\"",
+      "line": 198,
+      "selection": {
+        "start": {
+          "line": 198,
+          "character": 2
+        },
+        "end": {
+          "line": 198,
+          "character": 153
+        }
+      }
+    }
+  ]
+}

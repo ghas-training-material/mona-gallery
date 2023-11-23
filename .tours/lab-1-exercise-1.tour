@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Lab-1-Exercise-1",
+  "steps": [
+    {
+      "file": "storage/src/main/resources/application.properties",
+      "description": "This is the secret pattern `mona_value_abc124` for which we will create an AI generated custom pattern for Secret Scanning in GitHub Advanced Security",
+      "line": 5,
+      "selection": {
+        "start": {
+          "line": 5,
+          "character": 16
+        },
+        "end": {
+          "line": 5,
+          "character": 33
+        }
+      }
+    }
+  ]
+}

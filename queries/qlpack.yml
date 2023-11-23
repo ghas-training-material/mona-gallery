@@ -1,0 +1,11 @@
+---
+library: false
+warnOnImplicitThis: false
+name: queries
+version: 0.0.1
+dependencies:
+  codeql/javascript-all: "*"
+
+
+  
+

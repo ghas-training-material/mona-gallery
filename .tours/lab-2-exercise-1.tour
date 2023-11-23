@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Lab-2-Exercise-1",
+  "steps": [
+    {
+      "file": "frontend/src/components/Gallery.vue",
+      "description": "Add the Sanitization function listed in the exercise description here",
+      "line": 233,
+      "selection": {
+        "start": {
+          "line": 233,
+          "character": 1
+        },
+        "end": {
+          "line": 233,
+          "character": 33
+        }
+      }
+    },
+    {
+      "file": "frontend/src/components/Gallery.vue",
+      "description": "Call the sanization function from the Update function by placing the following call\n\n    artItem.description = sanitizeInput(artItem.description)\n    artItem.title = sanitizeInput(artItem.title)",
+      "line": 339
+    }
+  ]
+}
