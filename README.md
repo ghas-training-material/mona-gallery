@@ -5,21 +5,21 @@
   <a href="#prerequisites">Prerequisites</a> •
   <a href="#mona-gallery">Mona Gallery</a> •  
   <a href="#license">License</a> •
-  <a href="#maintainers">Maintainers</a>
-  <a href="#support">Support</a>
-  <a href="#learning-resources">Learning Resources</a>
+  <a href="#maintainers">Maintainers</a> •
+  <a href="#support">Support</a> •
+  <a href="#learning-resources">Learning Resources</a> •
 
 </p>
 
 ### Introduction
 
-This repository contains the source code for the delibrately vulnerable `Mona Gallery` web application which is used for security training purposes.
+This repository contains the source code for the delibrately vulnerable `Mona Gallery` web application used for security training purposes.
 
 ### Prerequisites
 
-If you want to run the `Mona Gallery` application, you will require Docker. You can run the application with a simple `docker compose up` commanfe. For more information on ports and services see the [docker compose file](./docker-compose.yaml).
+If you want to run the `Mona Gallery` application, you will require Docker. You can run the application with a simple `docker compose up` command. For more information on ports and services see the [docker compose file](./docker-compose.yaml).
 
-There are two users you can use to log into the app via OIDC integration. For details see the [passwords file](./passwords.txt).
+There are two users you can use to log into the app via OIDC integration. For details see [passwords file](./passwords.txt).
 
 ### Mona Gallery
 
