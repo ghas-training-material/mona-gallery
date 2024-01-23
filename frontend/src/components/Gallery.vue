@@ -264,7 +264,7 @@ export default {
 
         }).catch((e) => {
             console.log("Failed to refresh gallery with error:", e)
-            console.log(err.stack);
+            console.log(e.stack);
         })
         this.gallery.art.forEach(async art => {
             if (art.is_file_upload) {
@@ -316,7 +316,7 @@ export default {
                 })
                 location.reload();
             }).catch((e) => {
-                console.log(e)
+                console.log(e.stack)
             })
 
 
@@ -337,7 +337,7 @@ export default {
         putArtRequest(artItem) {
 
             //add sanitization call here
-            
+
             axios.put(
                 `http://localhost:8081/gallery/art/${artItem.id}`, artItem,
                 {
